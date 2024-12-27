@@ -74,3 +74,38 @@ button {
 .stop-button:hover {
   background-color: #f23535;
 }
+
+.loading {
+  color: #646cff;
+  font-weight: 500;
+  animation: pulse 1.5s infinite;
+}
+
+.voice-status {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.voice-active {
+  color: #2ecc71;
+  font-weight: 500;
+}
+
+.voice-fallback {
+  color: #e74c3c;
+  font-weight: 500;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
